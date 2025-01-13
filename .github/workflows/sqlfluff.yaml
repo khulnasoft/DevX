@@ -21,14 +21,14 @@ name: SQLFluff
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths:
       - '**/*.sql'
       - .github/workflows/sqlfluff.yaml
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths:
       - '**/*.sql'
@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: SQLFluff
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/sqlfluff.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/sqlfluff.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}

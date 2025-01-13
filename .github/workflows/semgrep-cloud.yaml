@@ -23,13 +23,13 @@ name: Semgrep Cloud
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
@@ -55,7 +55,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Semgrep Cloud
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/semgrep-cloud.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/semgrep-cloud.yaml@sql
     secrets:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
     with:

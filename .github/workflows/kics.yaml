@@ -21,13 +21,13 @@ name: Kics
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Kics
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/kics.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/kics.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}

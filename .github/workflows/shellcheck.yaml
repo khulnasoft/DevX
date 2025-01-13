@@ -23,14 +23,14 @@ name: ShellCheck
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths:
       - '**/*.sh'
       - .github/workflows/shellcheck.yaml
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths:
       - '**/*.sh'
@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: ShellCheck
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/shellcheck.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/shellcheck.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}

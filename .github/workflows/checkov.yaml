@@ -25,13 +25,13 @@ name: Checkov
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Checkov
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/checkov.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/checkov.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}
