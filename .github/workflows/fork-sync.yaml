@@ -43,6 +43,6 @@ jobs:
     #if: github.event.repository.fork == true
     if: github.repository_owner != 'KhulnaSoft'
     name: Fork Sync
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/fork-sync.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/fork-sync.yaml@golang
     with:
       debug: ${{ github.event.inputs.debug }}

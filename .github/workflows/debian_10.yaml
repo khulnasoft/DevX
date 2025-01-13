@@ -17,7 +17,7 @@ name: Debian 10
 on:
   push:
     branches:
-      - master
+      - golang
     paths-ignore:
       - '**/*.md'
       - '.github/workflows/*'
@@ -78,7 +78,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Build
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@golang
     with:
       container: debian:10
       caches: apt pip cpanm

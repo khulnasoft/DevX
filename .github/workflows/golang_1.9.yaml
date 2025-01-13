@@ -16,7 +16,7 @@ name: Golang 1.9
 on:
   push:
     branches:
-      - master
+      - golang
       - main
     paths:
       - '**/*.go'
@@ -25,7 +25,7 @@ on:
       - .github/workflows/golang_1.9.yaml
   pull_request:
     branches:
-      - master
+      - golang
       - main
     paths:
       - '**/*.go'
@@ -54,7 +54,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Golang 1.9
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@golang
     with:
       container: golang:1.9
       caches: apt golang
