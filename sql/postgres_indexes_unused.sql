@@ -1,0 +1,38 @@
+--
+--  Author: KhulnaSoft Ltd
+--  Date: 2020-08-05 23:48:47 +0100 (Wed, 05 Aug 2020)
+--
+--  vim:ts=4:sts=4:sw=4:et:filetype=sql
+--
+--  https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/SQL
+--
+--  License: see accompanying KhulnaSoft Ltd LICENSE file
+--
+--  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+--
+--  https://www.linkedin.com/company/khulnasoft
+--
+
+-- PostgreSQL unused indexes
+--
+-- Tested on PostgreSQL 8.4, 9.x, 10.x, 11.x, 12.x, 13.0
+
+SELECT
+    relname AS table,
+    indexrelname AS index,
+    idx_scan,
+    idx_tup_read,
+    idx_tup_fetch,
+    pg_size_pretty(pg_relation_size(indexrelname::regclass))
+FROM
+    pg_stat_all_indexes
+WHERE
+    schemaname = 'public'
+        AND
+    idx_scan = 0
+        AND
+    idx_tup_read = 0
+        AND
+    idx_tup_fetch = 0
+ORDER BY
+    pg_relation_size(indexrelname::regclass) DESC;
