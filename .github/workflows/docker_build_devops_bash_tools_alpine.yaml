@@ -1,0 +1,55 @@
+#
+#  Author: KhulnaSoft Ltd
+#  Date: 2022-01-27 18:55:16 +0000 (Thu, 27 Jan 2022)
+#
+#  vim:ts=2:sts=2:sw=2:et
+#
+#  https://github.com/KhulnaSoft/DevX/tree/main/docker-images
+#
+#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
+#
+#  https://www.linkedin.com/company/khulnasoft
+#
+
+---
+name: Docker Build DevOps Bash Tools (Alpine)
+
+on:
+  push:
+    branches:
+      - docker
+      - main
+    paths:
+      - devops-bash-tools-alpine/Dockerfile
+      - src/**
+      - .github/workflows/docker_build_devops_bash_tools_alpine.yaml
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  docker_build:
+    name: Docker Build
+    # github.event.repository context not available in scheduled workflows
+    #if: github.event.repository.fork == false
+    if: |
+      github.repository_owner == 'KhulnaSoft' &&
+      (
+        github.event_name == 'schedule' ||
+        (
+          github.ref_type == 'branch' &&
+          ( github.ref_name == github.event.repository.default_branch || github.ref_name == 'docker' )
+        )
+      )
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/docker_build.yaml@docker
+    with:
+      # don't put ghcr.io/khulnasoft/... here because it'll clash with packages owned by devops tools repos
+      repo_tags: |
+        khulnasoft/bash-tools:alpine
+      context: devops-bash-tools-alpine
+    secrets:
+      DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+    permissions:
+      contents: read
+      packages: write
