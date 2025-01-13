@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Validate
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/validate.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/validate.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

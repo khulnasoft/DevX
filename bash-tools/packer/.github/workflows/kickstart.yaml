@@ -44,6 +44,6 @@ permissions:
 jobs:
   kickstart:
     name: Kickstart
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/kickstart.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/kickstart.yaml@master
     with:
       files: installers/anaconda-ks.cfg installers/ks.cfg installers/kickstart.cfg

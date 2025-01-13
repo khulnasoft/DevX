@@ -51,4 +51,4 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Markdown
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/markdown.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/markdown.yaml@master

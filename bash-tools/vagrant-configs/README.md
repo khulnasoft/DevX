@@ -108,7 +108,7 @@ Does nothing:
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/GitHub-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Jenkins)
 
 ### DBA - SQL

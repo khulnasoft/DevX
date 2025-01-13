@@ -55,7 +55,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Python 3.9
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/make.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@master
     with:
       python-version: 3.9
       caches: apt pip

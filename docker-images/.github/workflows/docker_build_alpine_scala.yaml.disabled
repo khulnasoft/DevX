@@ -29,7 +29,7 @@ on:
 jobs:
   docker_build:
     name: Docker Build
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/docker_build.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/docker_build.yaml@master
     with:
       repo_tags: |
         khulnasoft/alpine-scala:latest

@@ -44,6 +44,6 @@ permissions:
 jobs:
   cloudinit:
     name: Cloud-Init
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/autoinstall-user-data.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/autoinstall-user-data.yaml@master
     with:
       files: installers/autoinstall-user-data

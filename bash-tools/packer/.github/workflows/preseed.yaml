@@ -44,6 +44,6 @@ permissions:
 jobs:
   preseed:
     name: Preseed
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/preseed.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/preseed.yaml@master
     with:
       files: installers/preseed.cfg
