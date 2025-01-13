@@ -44,4 +44,4 @@ permissions:
 jobs:
   packer:
     name: Packer
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/packer.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/packer.yaml@master

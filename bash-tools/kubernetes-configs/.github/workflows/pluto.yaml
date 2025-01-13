@@ -41,6 +41,6 @@ on:
 jobs:
   pluto:
     name: Pluto
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/pluto.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/pluto.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

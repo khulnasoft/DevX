@@ -82,7 +82,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Datree
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/datree.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/datree.yaml@master
     with:
       path: ${{ github.event.inputs.path || '**/*.y*ml' }}
       cliArguments: ${{ github.event.inputs.args || '--only-k8s-files --ignore-missing-schemas' }}

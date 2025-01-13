@@ -54,7 +54,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Golang 1.17
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/make.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@master
     with:
       container: golang:1.17
       caches: apt golang

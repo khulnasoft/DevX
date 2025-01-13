@@ -55,7 +55,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Trivy Docker Image Scan
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/trivy.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/trivy.yaml@master
     with:
       docker_image: khulnasoft/bash-tools
       severity: ''

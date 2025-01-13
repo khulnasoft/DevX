@@ -181,13 +181,13 @@ Terraform HCL code for AWS / GCP / Azure / GitHub management
 ---
 ## GitHub Actions
 
-[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/KhulnaSoft/GitHub-Actions)
-[![GitHub stars](https://img.shields.io/github/stars/KhulnaSoft/GitHub-Actions?logo=github)](https://github.com/KhulnaSoft/GitHub-Actions/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/KhulnaSoft/GitHub-Actions?logo=github)](https://github.com/KhulnaSoft/GitHub-Actions/network)
+[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/KhulnaSoft/DevX-Actions)
+[![GitHub stars](https://img.shields.io/github/stars/KhulnaSoft/DevX-Actions?logo=github)](https://github.com/KhulnaSoft/DevX-Actions/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/KhulnaSoft/DevX-Actions?logo=github)](https://github.com/KhulnaSoft/DevX-Actions/network)
 
 GitHub Actions Reusable Workflows and Master Template
 
-[![Stargazers over time](https://starchart.cc/KhulnaSoft/GitHub-Actions.svg)](https://starchart.cc/KhulnaSoft/GitHub-Actions)
+[![Stargazers over time](https://starchart.cc/KhulnaSoft/DevX-Actions.svg)](https://starchart.cc/KhulnaSoft/DevX-Actions)
 
 ---
 ## KhulnaSoft Ltd - HashiCorp Packer templates

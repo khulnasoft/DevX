@@ -65,7 +65,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Kustomize
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/datree-kustomize-all.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/datree-kustomize-all.yaml@master
     with:
       path: ${{ github.event.inputs.path || '.' }}
       cliArguments: ${{ github.event.inputs.args || '--only-k8s-files --ignore-missing-schemas' }}

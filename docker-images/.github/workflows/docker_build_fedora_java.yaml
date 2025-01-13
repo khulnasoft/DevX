@@ -41,7 +41,7 @@ jobs:
           ( github.ref_name == github.event.repository.default_branch || github.ref_name == 'docker' )
         )
       )
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/docker_build.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/docker_build.yaml@master
     with:
       repo_tags: |
         khulnasoft/fedora-java:latest

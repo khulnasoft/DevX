@@ -143,7 +143,7 @@ ENV NODE_ENV $NODE_ENV
 #
 # XXX: to minimize cache-busting on same day, regenerate this once every 12 hours (max token life) and insert into a CI/CD secret to reuse between workflow runs eg.
 #
-#   https://github.com/KhulnaSoft/GitHub-Actions/blob/master/.github/workflows/codeartifact_secret.yaml
+#   https://github.com/KhulnaSoft/DevX-Actions/blob/master/.github/workflows/codeartifact_secret.yaml
 #
 ARG CODARTIFACT_AUTH_TOKEN
 

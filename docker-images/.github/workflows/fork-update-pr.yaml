@@ -46,6 +46,6 @@ jobs:
     #if: github.event.repository.fork == true
     if: github.repository_owner != 'KhulnaSoft'
     name: Fork Update PR
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/fork-update-pr.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/fork-update-pr.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

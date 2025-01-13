@@ -49,4 +49,4 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Check Dockerfiles
-    uses: KhulnaSoft/GitHub-Actions/.github/workflows/dockerfiles.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/dockerfiles.yaml@master
