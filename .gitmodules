@@ -2,3 +2,7 @@
 	path = bash-tools
 	url = https://github.com/khulnasoft/DevX
 	branch = bash-tools
+[submodule "sql"]
+	path = sql
+	url = https://github.com/khulnasoft/DevX
+	branch = sql
