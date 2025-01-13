@@ -49,7 +49,7 @@ Code & DevOps Config templates for many popular programming languages and DevOps
 - AWS - various - `aws_*`, [buildspec.yml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/buildspec.yml), `ec*`, [eksctl.yaml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/eksctl.yaml), `lambda*`, `s3*`
 - GCP - [cloudbuild.yaml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/cloudbuild.yaml), [cloudbuild-golang.yaml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/cloudbuild-golang.yaml), [gcp_deployment-manager.yaml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/gcp_deployment_manager.yaml)
 - Jenkins - [Jenkinsfile](https://github.com/KhulnaSoft/Jenkins/blob/master/Jenkinsfile) (advanced) and [jenkins/vars/](https://github.com/KhulnaSoft/Jenkins/tree/master/vars) Jenkins Shared Library
-- GitHub Actions - [github-action.yaml](https://github.com/KhulnaSoft/DevX-Actions/blob/master/main.yaml) (advanced) and [github-actions/.github/workflows](https://github.com/KhulnaSoft/DevX-Actions/tree/master/.github/workflows) GitHub Workflows Library
+- GitHub Actions - [github-action.yaml](https://github.com/KhulnaSoft/DevX-Actions/blob/master/main.yaml) (advanced) and [devx-actions/.github/workflows](https://github.com/KhulnaSoft/DevX-Actions/tree/master/.github/workflows) GitHub Workflows Library
 - Azure DevOps Pipelines - [azure-pipelines.yaml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/azure-pipelines.yml)
 - Circle CI - [circleci-config.yml](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/circleci-config.yml) (advanced)
 - Vagrant - [Vagrantfile](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/templates/blob/master/Vagrantfile)
@@ -214,7 +214,7 @@ Does nothing:
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=DevX-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Jenkins)
 
 ### DBA - SQL
@@ -224,7 +224,7 @@ Does nothing:
 ### DevOps Reloaded
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugins)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/HAProxy-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Terraform)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/packer)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugin-Kafka)

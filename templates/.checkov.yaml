@@ -32,7 +32,7 @@ directory:
   - .
 skip-path:
   - jenkins
-  - github-actions
+  - devx-actions
   - kubernetes-templates
   - terraform-templates
 #docker-image: khulnasoft/bash-tools

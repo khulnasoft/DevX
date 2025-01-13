@@ -82,9 +82,9 @@ Advanced Kubernetes YAML configs - Best Practices, Tips & Tricks, Production-Rea
 ---
 ## Advanced HAProxy Configs for Big Data, NoSQL, Web and Infrastructure technologies
 
-[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/KhulnaSoft/HAProxy-configs)
-[![GitHub stars](https://img.shields.io/github/stars/KhulnaSoft/HAProxy-configs?logo=github)](https://github.com/KhulnaSoft/HAProxy-configs/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/KhulnaSoft/HAProxy-configs?logo=github)](https://github.com/KhulnaSoft/HAProxy-configs/network)
+[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs)
+[![GitHub stars](https://img.shields.io/github/stars/KhulnaSoft/HAProxy-configs?logo=github)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/KhulnaSoft/HAProxy-configs?logo=github)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs/network)
 
 80+ HAProxy Configs for Hadoop, Big Data, NoSQL, Docker, Kubernetes, Elasticsearch, SolrCloud, HBase, MySQL, PostgreSQL, Apache Drill, Hive, Presto, Impala, Hue, ZooKeeper, SSH, RabbitMQ, Redis, Riak, Cloudera, OpenTSDB, InfluxDB, Prometheus, Kibana, Graphite, Rancher etc.
 

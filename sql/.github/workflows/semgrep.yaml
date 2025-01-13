@@ -17,7 +17,7 @@
 
 # Generates code scanning alerts in GitHub's Security tab -> Code scanning alerts
 
-# https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#github-actions
+# https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#devx-actions
 
 ---
 name: Semgrep
@@ -25,13 +25,13 @@ name: Semgrep
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths-ignore:
       - '**/*.md'
@@ -59,6 +59,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Semgrep GitHub Security Tab
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/semgrep.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/semgrep.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}

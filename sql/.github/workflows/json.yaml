@@ -23,14 +23,14 @@ name: JSON
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths:
       - '**/*.json'
       - .github/workflows/json.yaml
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths:
       - '**/*.json'
@@ -53,6 +53,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Check JSON
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/json.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/json.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}

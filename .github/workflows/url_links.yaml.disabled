@@ -45,7 +45,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: URL Links
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/url_links.yaml@bash-tools
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/url_links.yaml@master
     with:
       ignore_urls_without_dots: 'true'  # any value enables this
       url_links_ignored: |

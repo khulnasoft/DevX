@@ -21,14 +21,14 @@ name: CodeOwners
 on:
   push:
     branches:
-      - master
+      - sql
       - main
     paths:
       - CODEOWNERS
       - .github/CODEOWNERS
   pull_request:
     branches:
-      - master
+      - sql
       - main
     paths:
       - CODEOWNERS
@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Validate CODEOWNERS
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/codeowners.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/codeowners.yaml@sql
     with:
       debug: ${{ github.event.inputs.debug }}

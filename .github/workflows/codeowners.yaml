@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Validate CODEOWNERS
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/codeowners.yaml@bash-tools
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/codeowners.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

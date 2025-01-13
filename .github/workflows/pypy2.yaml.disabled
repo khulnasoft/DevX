@@ -49,7 +49,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: PyPy2
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@bash-tools
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/make.yaml@master
     with:
       python-version: pypy2
       caches: apt pip

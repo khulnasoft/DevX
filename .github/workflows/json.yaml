@@ -53,6 +53,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Check JSON
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/json.yaml@bash-tools
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/json.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

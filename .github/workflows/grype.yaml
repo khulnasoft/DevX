@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Grype
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/grype.yaml@bash-tools
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/grype.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

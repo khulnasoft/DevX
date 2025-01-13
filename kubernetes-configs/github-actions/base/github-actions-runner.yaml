@@ -31,10 +31,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: github-actions-runner
-  namespace: github-actions
+  name: devx-actions-runner
+  namespace: devx-actions
   labels:
-    app: github-actions-runner
+    app: devx-actions-runner
   annotations:
     cluster-autoscaler.kubernetes.io/safe-to-evict: "false"
 spec:
@@ -46,11 +46,11 @@ spec:
       maxSurge: 25%
   selector:
     matchLabels:
-      app: github-actions-runner
+      app: devx-actions-runner
   template:
     metadata:
       labels:
-        app: github-actions-runner
+        app: devx-actions-runner
     spec:
       affinity:
         # avoid preemption which can cause build failures
@@ -81,7 +81,7 @@ spec:
                     - key: app
                       operator: In
                       values:
-                        - github-actions-runner
+                        - devx-actions-runner
             - weight: 100
               podAffinityTerm:
                 topologyKey: kubernetes.io/hostname
@@ -90,17 +90,17 @@ spec:
                     - key: app
                       operator: In
                       values:
-                        - github-actions-runner
+                        - devx-actions-runner
       containers:
-        - name: github-actions-runner
-          #image: khulnasoft/github-actions-runner:2.284
-          image: khulnasoft/github-actions-runner:latest
+        - name: devx-actions-runner
+          #image: khulnasoft/devx-actions-runner:2.284
+          image: khulnasoft/devx-actions-runner:latest
           #imagePullPolicy: Always
           args:
             - --url
             - https://github.com/<REPO_OR_ORG>  # XXX: replace
             - --token
-            # XXX: kubectl create secret generic -n github-actions github-actions-runner-token --from-literal=github-actions-runner-token=TOKEN
+            # XXX: kubectl create secret generic -n devx-actions devx-actions-runner-token --from-literal=devx-actions-runner-token=TOKEN
             #        or
             #      use a script like gcp_secrets_to_kubernetes.sh to load it from GCP Secret Manager (see https://github.com/KhulnaSoft/DevOps-Bash-tools)
             - $(GITHUB_ACTIONS_RUNNER_TOKEN)
@@ -110,8 +110,8 @@ spec:
             - name: GITHUB_ACTIONS_RUNNER_TOKEN
               valueFrom:
                 secretKeyRef:
-                  name: github-actions-runner-token
-                  key: github-actions-runner-token
+                  name: devx-actions-runner-token
+                  key: devx-actions-runner-token
           # TODO: see if there is a better check that this, at least a port or preferably http /health check
           readinessProbe:
             exec:

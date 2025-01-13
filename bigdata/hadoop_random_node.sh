@@ -21,7 +21,7 @@
 #
 #   find_active_*.py - https://github.com/KhulnaSoft/DevX/tree/main/tools/python
 #
-#   HAProxy Configs for many Hadoop and other technologies - https://github.com/KhulnaSoft/HAProxy-configs
+#   HAProxy Configs for many Hadoop and other technologies - https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs
 #
 
 set -euo pipefail

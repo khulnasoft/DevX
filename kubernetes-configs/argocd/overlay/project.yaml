@@ -82,7 +82,7 @@ spec:
       server: https://kubernetes.default.svc  # XXX: Edit
     - namespace: external-secrets
       server: https://kubernetes.default.svc  # XXX: Edit
-    - namespace: github-actions
+    - namespace: devx-actions
       server: https://kubernetes.default.svc  # XXX: Edit
     - namespace: goldilocks
       server: https://kubernetes.default.svc  # XXX: Edit
