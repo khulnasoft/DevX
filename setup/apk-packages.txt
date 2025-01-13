@@ -1,0 +1,20 @@
+#
+#  Author: KhulnaSoft Ltd
+#  Date: 2019-08-08 14:55:05 +0100 (Thu, 08 Aug 2019)
+#
+#  https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs
+#
+#  License: see accompanying KhulnaSoft Ltd LICENSE file
+#
+#  https://www.linkedin.com/company/khulnasoft
+#
+
+# ============================================================================ #
+#                          Alpine Package Requirements
+# ============================================================================ #
+
+haproxy
+
+# to check haproxy version for tests
+#bash  # installed by bash-tools submodule now
+bc
