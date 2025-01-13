@@ -23,7 +23,7 @@ name: YAML
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - '**/*.yml'
@@ -31,7 +31,7 @@ on:
       - .github/workflows/yaml.yaml
   pull_request:
     branches:
-      - master
+      - docker
       - main
     paths:
       - '**/*.yml'

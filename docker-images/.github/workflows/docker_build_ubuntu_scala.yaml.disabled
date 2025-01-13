@@ -17,7 +17,7 @@ name: Docker Build Ubuntu Scala
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - ubuntu-scala/Dockerfile

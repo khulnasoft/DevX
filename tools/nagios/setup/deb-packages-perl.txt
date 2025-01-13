@@ -1,0 +1,28 @@
+#
+#  Author: KhulnaSoft Ltd
+#  Date: 2013-02-03 10:25:36 +0000 (Sun, 03 Feb 2013)
+#
+#  https://github.com/KhulnaSoft/Nagios-Plugins
+#
+#  License: see accompanying KhulnaSoft Ltd LICENSE file
+#
+#  https://www.linkedin.com/company/khulnasoft
+#
+
+# ============================================================================ #
+#                         Deb Perl Package Requirements
+# ============================================================================ #
+
+# ethtool needed for ./check_linux_interface.pl
+ethtool
+net-tools
+
+# for check_ssl_cert.pl
+openssl
+
+# for check_whois.pl - looks like this has been removed from repos :-/
+# trying in Makefile with error suppression
+#jwhois
+
+# check_linux_timezone.pl
+tzdata

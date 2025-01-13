@@ -23,7 +23,7 @@
 
 # See Also:
 #
-#   https://github.com/KhulnaSoft/HAProxy-configs
+#   https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs
 
 ---
 apiVersion: kustomize.config.k8s.io/v1beta1

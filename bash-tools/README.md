@@ -872,7 +872,7 @@ See also [Knowledge Base notes for Docker](https://github.com/KhulnaSoft/Knowled
   - `hive_tables_row_counts.sh` - lists the row count per Hive table
   - `hive_tables_column_counts.sh` - lists the column count per Hive table
 - ` impala*.sh` - [Apache Impala](https://impala.apache.org/) scripts:
-  - `impala_shell.sh` - shortens `impala-shell` command to connect to [Impala](https://impala.apache.org/) by parsing the Hadoop topology map and selecting a random datanode to connect to its Impalad, acting as a cheap CLI load balancer. For a real load balancer see [HAProxy config for Impala](https://github.com/KhulnaSoft/HAProxy-configs) (and many other Big Data & NoSQL technologies). Optional environment variables `$IMPALA_HOST` (eg. point to an explicit node or an HAProxy load balancer) and `IMPALA_SSL=1` (or use regular impala-shell `--ssl` argument pass through)
+  - `impala_shell.sh` - shortens `impala-shell` command to connect to [Impala](https://impala.apache.org/) by parsing the Hadoop topology map and selecting a random datanode to connect to its Impalad, acting as a cheap CLI load balancer. For a real load balancer see [HAProxy config for Impala](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs) (and many other Big Data & NoSQL technologies). Optional environment variables `$IMPALA_HOST` (eg. point to an explicit node or an HAProxy load balancer) and `IMPALA_SSL=1` (or use regular impala-shell `--ssl` argument pass through)
   - `impala_foreach_table.sh` - executes a SQL query against every table, replacing `{db}` and `{table}` in each iteration eg. `select count(*) from {table}`
   - `impala_list_databases.sh` - list Impala databases, one per line, suitable for scripting pipelines
   - `impala_list_tables.sh` - list Impala tables, one per line, suitable for scripting pipelines
@@ -884,7 +884,7 @@ See also [Knowledge Base notes for Docker](https://github.com/KhulnaSoft/Knowled
   - `hdfs_checksum*.sh` - walks an HDFS directory tree and outputs HDFS native checksums (faster) or portable externally comparable CRC32, in serial or in parallel to save time
   - `hdfs_find_replication_factor_1.sh` / `hdfs_set_replication_factor_3.sh` - finds HDFS files with replication factor 1 / sets HDFS files with replication factor <=2 to replication factor 3 to repair replication safety and avoid no replica alarms during maintenance operations (see also Python API version in the [DevOps Python Tools](https://github.com/KhulnaSoft/DevX/tree/main/tools/python) repo)
   - `hdfs_file_size.sh` / `hdfs_file_size_including_replicas.sh` - quickly differentiate HDFS files raw size vs total replicated size
-  - `hadoop_random_node.sh` - picks a random Hadoop cluster worker node, like a cheap CLI load balancer, useful in scripts when you want to connect to any worker etc. See also the read [HAProxy Load Balancer configurations](https://github.com/KhulnaSoft/HAProxy-configs) which focuses on master nodes
+  - `hadoop_random_node.sh` - picks a random Hadoop cluster worker node, like a cheap CLI load balancer, useful in scripts when you want to connect to any worker etc. See also the read [HAProxy Load Balancer configurations](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs) which focuses on master nodes
 - `cloudera_*.sh` - [Cloudera](https://www.cloudera.com/) scripts:
   - `cloudera_manager_api.sh` - script to simplify querying [Cloudera Manager](https://www.cloudera.com/products/product-components/cloudera-manager.html) API using environment variables, prompts, authentication and sensible defaults. Built on top of `curl_auth.sh`
   - `cloudera_manager_impala_queries*.sh` - queries [Cloudera Manager](https://www.cloudera.com/products/product-components/cloudera-manager.html) for recent [Impala](https://impala.apache.org/) queries, failed queries, exceptions, DDL statements, metadata stale errors, metadata refresh calls etc. Built on top of `cloudera_manager_api.sh`
@@ -958,7 +958,7 @@ See also [Knowledge Base notes for Hadoop](https://github.com/KhulnaSoft/Knowled
   - `github_pull_merge_trunk.sh` - pulls the origin or fork upstream repo's trunk branch and merges it into the local branch, In a forked GitHub repo's checkout, determines the origin of the fork using GitHub CLI, configures a git remote to the upstream, pulls the default branch and if on a branch other than the default then merges the default branch to the local current branch. Simplifies and automates keeping your checkout or forked repo up to date with the original source repo to quickly resolve merge conflicts locally and submit updated Pull Requests
   - `github_forked_add_remote.sh` - quickly adds a forked repo as a remote from an interactive men list of forked repos
   - `github_forked_checkout_branch.sh` - quickly check out a forked repo's branch from an interactive menu lists of forked repos and their branches
-  - `github_tag_hashref.sh` - Returns the GitHub commit hashref for a given GitHub Actions `owner/repo@tag` or `https://github.com/owner/repo@tag`. Useful for pinning 3rd party GitHub Actions to hashref instead of tag to follow [GitHub Actions Best Practices](https://github.com/KhulnaSoft/Knowledge-Base/blob/main/github-actions.md#github-actions-best-practices)
+  - `github_tag_hashref.sh` - Returns the GitHub commit hashref for a given GitHub Actions `owner/repo@tag` or `https://github.com/owner/repo@tag`. Useful for pinning 3rd party GitHub Actions to hashref instead of tag to follow [GitHub Actions Best Practices](https://github.com/KhulnaSoft/Knowledge-Base/blob/main/devx-actions.md#devx-actions-best-practices)
   - `github_actions_foreach_workflow.sh` - executes a templated command for each workflow in a given GitHub repo, replacing `{name}`, `{id}` and `{state}` in each iteration
   - `github_actions_aws_create_load_credential.sh` - creates an AWS user with group/policy, generates and downloads access keys, and uploads them to the given repo
   - `github_actions_in_use.sh` - lists GitHub Actions directly referenced in the .github/workflows in the current local repo checkout
@@ -1729,7 +1729,7 @@ Does nothing:
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=DevX-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Jenkins)
 
 ### DBA - SQL
@@ -1739,7 +1739,7 @@ Does nothing:
 ### DevOps Reloaded
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugins)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/HAProxy-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Terraform)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/packer)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugin-Kafka)

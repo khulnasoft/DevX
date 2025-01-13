@@ -11,8 +11,8 @@
 #  https://www.linkedin.com/company/khulnasoft
 #
 
-REPO := khulnasoft/github-actions-runner
-#REPO := europe-west4-docker.pkg.dev/$CLOUDSDK_CORE_PROJECT/github-actions-runner/github-actions-runner
+REPO := khulnasoft/devx-actions-runner
+#REPO := europe-west4-docker.pkg.dev/$CLOUDSDK_CORE_PROJECT/devx-actions-runner/devx-actions-runner
 #GIT_COMMIT := $(shell git rev-parse HEAD)
 
 include ../Makefile.in

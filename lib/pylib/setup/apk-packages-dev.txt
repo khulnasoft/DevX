@@ -1,0 +1,27 @@
+#
+#  Author: KhulnaSoft Ltd
+#  Date: 2013-01-06 15:45:00 +0000 (Sun, 06 Jan 2013)
+#
+#  https://github.com/KhulnaSoft/DevOps-Python-tools
+#
+#  License: see accompanying LICENSE file
+#
+#  https://www.linkedin.com/company/khulnasoft
+#
+
+# ============================================================================ #
+#                        Alpine Dev Package Requirements
+# ============================================================================ #
+
+alpine-sdk
+# installed by bash-tools submodule now
+#gcc
+
+cyrus-sasl-dev
+krb5-dev
+libffi-dev
+linux-headers
+# conflicts with libressl-dev which is needed by mariadb-dev
+#openssl-dev
+libressl-dev
+py-cryptography

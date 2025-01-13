@@ -17,7 +17,7 @@ name: Docker Build DevOps Python Tools (CentOS)
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - devops-python-tools-centos/Dockerfile

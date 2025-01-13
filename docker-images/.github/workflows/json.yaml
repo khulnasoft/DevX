@@ -23,14 +23,14 @@ name: JSON
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - '**/*.json'
       - .github/workflows/json.yaml
   pull_request:
     branches:
-      - master
+      - docker
       - main
     paths:
       - '**/*.json'

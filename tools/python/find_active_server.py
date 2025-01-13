@@ -96,7 +96,7 @@ Exits with return code 1 and NO_AVAILABLE_SERVER if none of the supplied servers
 
 See also Advanced HAProxy configurations (part of the Advanced Nagios Plugins Collection) at:
 
-    https://github.com/KhulnaSoft/HAProxy-configs
+    https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs
 
 """
 

@@ -17,7 +17,7 @@ name: Docker Build Alpine Dev
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - alpine-dev/Dockerfile

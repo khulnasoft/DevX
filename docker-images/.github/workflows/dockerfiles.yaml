@@ -17,13 +17,13 @@ name: Dockerfiles
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - '**Dockerfile**'
   pull_request:
     branches:
-      - master
+      - docker
       - main
     paths:
       - '**Dockerfile**'

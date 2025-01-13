@@ -184,7 +184,7 @@ More specific information can be found in the readme page under each respective 
 - [CircleCI Runner](https://circleci.com/) - CI/CD runner for CircleCI - [readme](https://github.com/KhulnaSoft/DevX/tree/main/docker-images/blob/master/circleci-runner/README.md)
 - [Consul](https://www.consul.io/) - distributed service discovery by [HashiCorp](https://www.hashicorp.com/)
 - [FakeS3](https://supso.org/projects/fake-s3) - Amazon S3 API simulator for testing without incurring AWS S3 costs - [readme](https://github.com/KhulnaSoft/DevX/tree/main/docker-images/blob/master/fakes3/README.md)
-- [GitHub Actions Runner](https://github.com/features/actions) - CI/CD runner for GitHub Actions - [readme](https://github.com/KhulnaSoft/DevX/tree/main/docker-images/blob/master/github-actions-runner/README.md)
+- [GitHub Actions Runner](https://github.com/features/actions) - CI/CD runner for GitHub Actions - [readme](https://github.com/KhulnaSoft/DevX/tree/main/docker-images/blob/master/devx-actions-runner/README.md)
 - [Git](https://git-scm.com/) + [Kustomize](https://kustomize.io/) - minimal Git + Kustomize for CI/CD GitOps workflows - [readme](https://github.com/KhulnaSoft/DevX/tree/main/docker-images/blob/master/git-kustomize/README.md)
 - [H2O](https://www.h2o.ai/) - distributed machine learning framework by [0xdata](https://www.h2o.ai/)
 - [Hadoop](http://hadoop.apache.org/) (HDFS + Yarn) - distributed storage and compute cluster by Yahoo, [Cloudera](https://www.cloudera.com/) and [Hortonworks](https://hortonworks.com/) - [readme](https://github.com/KhulnaSoft/DevX/tree/main/docker-images/blob/master/hadoop/README.md)
@@ -393,7 +393,7 @@ Does nothing:
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=DevX-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Jenkins)
 
 ### DBA - SQL
@@ -403,7 +403,7 @@ Does nothing:
 ### DevOps Reloaded
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugins)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/HAProxy-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Terraform)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/packer)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugin-Kafka)

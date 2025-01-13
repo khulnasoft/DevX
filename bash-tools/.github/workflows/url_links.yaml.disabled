@@ -17,11 +17,11 @@ name: URL Links
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
   workflow_dispatch:
     inputs:

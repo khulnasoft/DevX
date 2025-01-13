@@ -23,14 +23,14 @@ name: XML
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.xml'
       - .github/workflows/xml.yaml
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.xml'

@@ -17,7 +17,7 @@ name: Docker Build Ubuntu Dev
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - ubuntu-dev/Dockerfile

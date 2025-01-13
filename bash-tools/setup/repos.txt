@@ -31,8 +31,8 @@ KhulnaSoft:khulnasoft
 Knowledge-Base:knowledge
 Environments:environments
 # order repos by dependent submodule repos first
-GitHub-Actions:github-actions
-GitHub-Actions-Contexts:contexts
+DevX-Actions:devx-actions
+DevX-Actions-Contexts:contexts
 Jenkins:jenkins
 SQL-scripts:sql
 SQL-keywords:sql-keywords

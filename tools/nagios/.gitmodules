@@ -1,0 +1,24 @@
+[submodule "lib"]
+	path = lib
+	url = https://github.com/KhulnaSoft/DevX
+	branch = lib
+[submodule "pylib"]
+	path = pylib
+	url = https://github.com/KhulnaSoft/DevX
+	branch = pylib
+[submodule "bash-tools"]
+	path = bash-tools
+	url = https://github.com/KhulnaSoft/DevX
+	branch = bash-tools
+[submodule "haproxy-configs"]
+	path = haproxy-configs
+	url = https://github.com/KhulnaSoft/DevX
+	branch = haproxy
+[submodule "sql"]
+	path = sql
+	url = https://github.com/KhulnaSoft/DevX
+	branch = sql
+[submodule "templates"]
+	path = templates
+	url = https://github.com/KhulnaSoft/DevX
+	branch = templates

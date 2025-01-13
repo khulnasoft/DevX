@@ -1,0 +1,20 @@
+[submodule "lib"]
+	path = lib
+	url = https://github.com/KhulnaSoft/lib
+	branch = master
+[submodule "bash-tools"]
+	path = bash-tools
+	url = https://github.com/KhulnaSoft/DevOps-Bash-tools
+	branch = master
+[submodule "sql"]
+	path = sql
+	url = https://github.com/KhulnaSoft/SQL-scripts
+[submodule "templates/kubernetes"]
+	path = templates/kubernetes
+	url = https://github.com/KhulnaSoft/Kubernetes-templates
+[submodule "sql-keywords"]
+	path = sql-keywords
+	url = https://github.com/KhulnaSoft/SQL-keywords
+[submodule "templates"]
+	path = templates
+	url = https://github.com/KhulnaSoft/Templates

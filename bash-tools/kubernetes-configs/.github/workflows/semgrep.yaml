@@ -17,7 +17,7 @@
 
 # Generates code scanning alerts in GitHub's Security tab -> Code scanning alerts
 
-# https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#github-actions
+# https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#devx-actions
 
 ---
 name: Semgrep

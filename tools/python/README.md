@@ -367,7 +367,7 @@ often have more specific overrides with higher precedence eg. `$AMBARI_HOST`, `$
     - `find_active_oozie.py` - returns first active [Oozie](http://oozie.apache.org/) server
     - `find_active_solrcloud.py` - returns first available [Solr](http://lucene.apache.org/solr/) / [SolrCloud](https://wiki.apache.org/solr/SolrCloud) node
     - `find_active_elasticsearch.py` - returns first available [Elasticsearch](https://www.elastic.co/products/elasticsearch) node
-    - see also: [Advanced HAProxy configurations](https://github.com/KhulnaSoft/HAProxy-configs) which are part of the
+    - see also: [Advanced HAProxy configurations](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs) which are part of the
       [Advanced Nagios Plugins Collection](https://github.com/KhulnaSoft/Nagios-Plugins)
 - [Travis CI](https://travis-ci.org/):
   - `travis_last_log.py` - fetches [Travis CI](https://travis-ci.org/) latest running / completed / failed build log for given repo -
@@ -633,7 +633,7 @@ Does nothing:
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=DevX-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX-Actions)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Jenkins)
 
 ### DBA - SQL
@@ -643,7 +643,7 @@ Does nothing:
 ### DevOps Reloaded
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugins)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/HAProxy-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Terraform)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/DevX/tree/main/bash-tools/packer)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KhulnaSoft&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/KhulnaSoft/Nagios-Plugin-Kafka)

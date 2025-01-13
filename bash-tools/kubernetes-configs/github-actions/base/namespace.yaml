@@ -23,6 +23,6 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: github-actions
+  name: devx-actions
   labels:
     goldilocks.fairwinds.com/enabled: "true"

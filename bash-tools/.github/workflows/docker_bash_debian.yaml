@@ -17,7 +17,7 @@ name: Docker Build (Debian)
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
@@ -58,7 +58,7 @@ on:
       - wercker.yml
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'

@@ -17,7 +17,7 @@ name: Docker Build GitHub Fedora
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - fedora-github/Dockerfile

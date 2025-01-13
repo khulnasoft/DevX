@@ -26,7 +26,7 @@ Returns the GitHub commit hashref for a given GitHub Actions owner/repo@tag or h
 
 Useful for pinning 3rd party GitHub Actionst to hashref instead of tag to follow GitHub Actions Best Practices:
 
-    https://github.com/KhulnaSoft/Knowledge-Base/blob/main/github-actions.md#github-actions-best-practices
+    https://github.com/KhulnaSoft/Knowledge-Base/blob/main/devx-actions.md#devx-actions-best-practices
 "
 
 # used by usage() in lib/utils.sh

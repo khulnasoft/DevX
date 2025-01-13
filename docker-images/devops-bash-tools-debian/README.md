@@ -31,7 +31,7 @@ These repos which contains many more Cloud, Big Data, NoSQL, Web and infrastruct
 - [DevOps Python Tools](https://github.com/KhulnaSoft/DevX/tree/main/tools/python)
 - [DevOps Perl Tools](https://github.com/KhulnaSoft/DevOps-Perl-tools)
 - [Advanced Nagios Plugins Collection](https://github.com/KhulnaSoft/Nagios-Plugins)
-- [HAProxy-configs](https://github.com/KhulnaSoft/HAProxy-configs)
+- [HAProxy-configs](https://github.com/KhulnaSoft/DevX/tree/master/HAProxy-configs)
 
 KhulnaSoft Ltd
 

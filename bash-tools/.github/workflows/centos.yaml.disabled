@@ -17,7 +17,7 @@ name: CentOS
 on:
   push:
     branches:
-      - master
+      - bash-tools
     paths-ignore:
       - '**/*.md'
       - '.github/workflows/*'

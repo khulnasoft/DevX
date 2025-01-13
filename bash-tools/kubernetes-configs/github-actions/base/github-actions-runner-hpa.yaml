@@ -26,13 +26,13 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: github-actions-runner-hpa
-  namespace: github-actions
+  name: devx-actions-runner-hpa
+  namespace: devx-actions
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: github-actions-runner
+    name: devx-actions-runner
   minReplicas: 1
   maxReplicas: 5
   targetCPUUtilizationPercentage: 70

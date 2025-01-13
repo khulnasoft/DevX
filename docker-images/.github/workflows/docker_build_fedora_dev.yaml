@@ -17,7 +17,7 @@ name: Docker Build Fedora Dev
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - fedora-dev/Dockerfile

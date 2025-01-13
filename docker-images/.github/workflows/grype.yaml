@@ -21,13 +21,13 @@ name: Grype
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - docker
       - main
     paths-ignore:
       - '**/*.md'

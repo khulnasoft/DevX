@@ -1,0 +1,4 @@
+[submodule "tools/golang/DevX"]
+	path = tools/golang/DevX
+	url = https://github.com/khulnasoft/DevX
+	branch = bash-tools

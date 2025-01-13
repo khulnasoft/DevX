@@ -17,7 +17,7 @@ name: Docker Build GitHub CentOS
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - centos-github/Dockerfile

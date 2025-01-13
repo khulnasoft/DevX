@@ -224,9 +224,9 @@ catalog:
     # Backstage example components
     - type: file
       target: ../catalog-model/examples/all-components.yaml
-    # Example component for github-actions and TechDocs
+    # Example component for devx-actions and TechDocs
     - type: file
-      target: ../../plugins/github-actions/examples/sample.yaml
+      target: ../../plugins/devx-actions/examples/sample.yaml
     # Example component for TechDocs
     - type: file
       target: ../../plugins/techdocs-backend/examples/documented-component/catalog-info.yaml

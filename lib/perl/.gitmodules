@@ -1,0 +1,4 @@
+[submodule "bash-tools"]
+	path = bash-tools
+	url = https://github.com/KhulnaSoft/DevOps-Bash-tools
+	branch = master

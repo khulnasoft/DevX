@@ -21,14 +21,14 @@ name: CodeOwners
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - CODEOWNERS
       - .github/CODEOWNERS
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - CODEOWNERS

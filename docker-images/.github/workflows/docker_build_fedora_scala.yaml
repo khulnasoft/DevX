@@ -17,7 +17,7 @@ name: Docker Build Fedora Scala
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - fedora-scala/Dockerfile

@@ -1,0 +1,24 @@
+[submodule "kubernetes-templates"]
+	path = kubernetes-templates
+	url = https://github.com/KhulnaSoft/Kubernetes-templates
+[submodule "terraform"]
+	path = terraform-templates
+	url = https://github.com/KhulnaSoft/Terraform-templates
+[submodule "jenkins"]
+	path = jenkins
+	url = https://github.com/KhulnaSoft/Jenkins
+	branch = master
+[submodule "devx-actions"]
+	path = devx-actions
+	url = https://github.com/khulnasoft/DevX-Actions
+	branch = master
+[submodule "packer-templates"]
+	path = packer-templates
+	url = https://github.com/KhulnaSoft/Packer-templates
+	branch = main
+[submodule "vagrant-templates"]
+	path = vagrant-templates
+	url = https://github.com/KhulnaSoft/Vagrant-templates
+[submodule "ansible-templates"]
+	path = ansible-templates
+	url = https://github.com/KhulnaSoft/Ansible.git

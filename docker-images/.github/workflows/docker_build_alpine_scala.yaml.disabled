@@ -17,7 +17,7 @@ name: Docker Build Alpine Scala
 on:
   push:
     branches:
-      - master
+      - docker
       - main
     paths:
       - alpine-scala/Dockerfile

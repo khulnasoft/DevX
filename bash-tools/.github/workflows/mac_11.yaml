@@ -17,7 +17,7 @@ name: Mac 11
 on:
   push:
     branches:
-      - master
+      - bash-tools
     paths-ignore:
       - '**/*.md'
       - '.github/workflows/*'

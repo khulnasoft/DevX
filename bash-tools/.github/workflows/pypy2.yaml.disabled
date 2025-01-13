@@ -17,13 +17,13 @@ name: PyPy 2
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.py'
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.py'

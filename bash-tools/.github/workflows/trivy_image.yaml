@@ -23,13 +23,13 @@ name: Trivy Docker Image Scan
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
