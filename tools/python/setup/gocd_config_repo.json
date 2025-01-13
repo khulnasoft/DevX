@@ -1,0 +1,26 @@
+{
+  "id": "DevOps-Python-tools",
+  "plugin_id": "yaml.config.plugin",
+  "material": {
+    "type": "git",
+    "attributes": {
+      "url": "https://github.com/KhulnaSoft/DevX/tree/main/tools/python",
+      "branch": "master",
+      "auto_update": true
+    }
+  },
+  "configuration": [
+    {
+      "key": "file_pattern",
+      "value": "cicd/*.gocd.y*ml"
+    }
+  ],
+  "rules": [
+    {
+      "directive": "allow",
+      "action": "*",
+      "type": "*",
+      "resource": "*"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+    'name': 'KhulnaSoft Ltd',
+    'age':  21,
+    'description': 'single quotes with embedded \"double quotes\"'
+}
