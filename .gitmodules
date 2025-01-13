@@ -1,0 +1,4 @@
+[submodule "bash-tools"]
+	path = bash-tools
+	url = https://github.com/khulnasoft/DevX
+	branch = bash-tools
