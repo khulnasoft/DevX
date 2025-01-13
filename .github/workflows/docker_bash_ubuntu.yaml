@@ -17,7 +17,7 @@ name: Docker Build (Ubuntu)
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
@@ -58,7 +58,7 @@ on:
       - wercker.yml
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
@@ -86,7 +86,7 @@ jobs:
       github.ref_type == 'branch' &&
       ( github.ref_name == github.event.repository.default_branch || github.ref_name == 'docker' )
     name: Docker Build
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/docker_build.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/docker_build.yaml@bash-tools
     with:
       # GitHub Actions doesn't yet support referencing env context in uses
       repo_tags: |

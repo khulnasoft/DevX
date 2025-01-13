@@ -21,7 +21,7 @@ name: Markdown
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.md'
@@ -31,7 +31,7 @@ on:
       - .github/workflows/markdown.yaml
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.md'
@@ -51,4 +51,4 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Markdown
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/markdown.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/markdown.yaml@bash-tools

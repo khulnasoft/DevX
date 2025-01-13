@@ -23,13 +23,13 @@ name: Validation
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths-ignore:
       - '**/*.md'
@@ -55,6 +55,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Validate
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/validate.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/validate.yaml@bash-tools
     with:
       debug: ${{ github.event.inputs.debug }}

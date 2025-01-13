@@ -19,7 +19,7 @@ name: Self Hosted
 on: # [push]
   push:
     branches:
-      - master
+      - bash-tools
     paths-ignore:
       - *.md
   schedule:

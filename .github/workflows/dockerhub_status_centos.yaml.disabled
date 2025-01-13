@@ -19,7 +19,7 @@ name: DockerHub CentOS
 on:
   push:
     branches:
-      - master
+      - bash-tools
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 7 * * *'

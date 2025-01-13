@@ -23,14 +23,14 @@ name: XML
 on:
   push:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.xml'
       - .github/workflows/xml.yaml
   pull_request:
     branches:
-      - master
+      - bash-tools
       - main
     paths:
       - '**/*.xml'
@@ -53,4 +53,4 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'KhulnaSoft'
     name: Check XML
-    uses: KhulnaSoft/DevX-Actions/.github/workflows/xml.yaml@master
+    uses: KhulnaSoft/DevX-Actions/.github/workflows/xml.yaml@bash-tools
